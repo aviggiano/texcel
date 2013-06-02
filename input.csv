@@ -1,0 +1,78 @@
+0;titulo;english;français;português
+1;filename;CV_Antonio-Viggiano;CV_Antonio-Viggiano;CV_Antonio-Viggiano
+2;pdfdir;CV_en;CV_fr;CV_pt
+3;versão;8.7;8.7;8.7
+4;;;;
+5;;;;
+6;;;;
+7;;;;
+8;;;;
+9;;;;
+10;;;;
+11;sobrenome;Ferreira Viggiano;FERREIRA VIGGIANO;Ferreira Viggiano
+12;email;antonio.viggiano@centrale-marseille.fr;antonio.viggiano@centrale-marseille.fr;antonio.viggiano@usp.br
+13;título do estágio;Software Engineering Internship;Stage Développement Logiciel;Estágio em Tecnologias da Informação
+14;section 1;Education;Éducation;Formação
+15;previsão de formatura école;(expected);(prévu);(esperado)
+16;diplome école;Multidisciplinary Graduate Engineering School;Ingénierie Généraliste;Engenharia Generalista
+17;DD;Double Degree;;Duplo Diploma
+18;major école;Emphasis: Information Technology and Digital Society;;
+19;coursework;Structures and Data Processing, Artificial Intelligence, Data Mining, Cryptography, Economy;;
+20;previsao de formatura USP;(expected);;
+21;Section 2;Mechatronics Graduate Engineering School;;
+22;coursework usp;Numerical Calculus, Computing Applied to Mechatronics, Linear Algebra, Probability and Statistics ;;
+23;experiencia;Experiences;;
+24;data estagio;August 2012;;
+25;cargo estagio;Intern;;
+26;France;France;;
+27;description stage 1;- Operated credit card personalization machines;;
+28;description stage 2;- Acquired work environment familiarization;;
+29;data PT;2012;;
+30;cargo PT;Project Manager;;
+31;description PT;MUDAR;;
+32;data ICM;since 2012;;
+33;cargo ICM;President;;
+34;description ICM 1;Students' association;;
+35;description ICM 2;- Responsible for the integration of exchange students and for the international mobility;;
+36;data IC;2011;;
+37;cargo IC;Undergraduate Scientific Researcher;;
+38;local IC;Laboratory of Environmental and Biomedical Engineering;;
+39;description IC;MUDAR;;
+40;data monitoria;2010;;
+41;cargo monitoria;Numerical Calculus Monitor;;
+42;description monitoria;- Corrected assignments written in C and supervised tests;;
+43;Section 3;Computer Skills;;
+44;programming languages;Programming Languages;;
+45;prog linha 1;C/C++, Java: \emph{proficient};;
+46;prog linha 2;Python, Prolog, Scala, R;;
+47;OS;Operational Systems;;
+48;OS linha 1;Windows, Linux  ;;
+49;Database;Database;;
+50;database linha 1;SQL;;
+51;Web;Web;;
+52;Web linha 1;HTML/CSS, PHP;;
+53;Software;Software;;
+54;Software linha 1;MATLAB, Dreamweaver, Visual Studio;;
+55;Others;Others;;
+56;Others linha 1;\LaTeX;;
+57;Section 4;Language Skills;;
+58;pt;Portuguese;;
+59;level pt;Native language;;
+60;fr;French;;
+61;level fr;Advanced;;
+62;diploma fr;DALF C1 (Diploma of Advanced French Language Studies);;
+63;en;English;;
+64;level en;Advanced;;
+65;diploma en;TOEIC (975 out of 990 points);;
+66;jp;Japanese;;
+67;jevel jp;Basic;;
+68;diploma jp; ;;
+69;Section 5;Projects;;
+70;IA;Artificial Intelligence;;
+71;description IA;Developed a Java expert system to suggest travel destinations based on user input data. ;;
+72;description IA +;Implemented the forward and backward chaining methods;;
+73;description IA ++;Designed the graphic user interface in Swing;;
+74;Data Analysis;Data Analysis;;
+75;description DA;Developed a Java program using an API to establish serial data communication with a radio module. ;;
+76;description DA +;Wrote the documentation and a guide on how to make further improvements;;
+77;description DA ++;Employed Git version control system;;

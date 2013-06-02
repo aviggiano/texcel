@@ -1,0 +1,125 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvtheme[black]{classic}                
+\usepackage[utf8]{inputenc}
+\usepackage[scaled]{helvet}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm]{geometry}
+
+%----------------------------------------------------------------------------------------
+%	CV english v. 8.7
+%	Antonio Guilherme FERREIRA VIGGIANO
+%   dir : ./CV_en	
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	for computer skills
+%----------------------------------------------------------------------------------------
+\renewcommand*{\cvdoubleitem}[4]{%
+ \cvline{#1}{\begin{minipage}[t]{1.4\doubleitemmaincolumnwidth}#2\end{minipage}%
+ \hfill%
+ \begin{minipage}[t]{\hintscolumnwidth}\raggedleft\hintfont{#3}\end{minipage}\hspace*{\separatorcolumnwidth}\begin{minipage}[t]{\doubleitemmaincolumnwidth}#4\end{minipage}}}
+
+%----------------------------------------------------------------------------------------
+%	for language skills
+%----------------------------------------------------------------------------------------
+\renewcommand*{\cvlanguage}[3]{%
+  \cvline{#1}{\textbf{#2}\hspace*{\separatorcolumnwidth}\emph{#3}}}
+
+%----------------------------------------------------------------------------------------
+%	ragged
+%----------------------------------------------------------------------------------------
+\renewcommand*{\cvline}[3][.25em]{%
+	  \begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{\separatorcolumnwidth}}p{\maincolumnwidth}@{}}%
+          \centering\hintfont{#2} &{#3}%
+	  \end{tabular}\\[#1]}
+	  
+\renewcommand*{\cventry}[6]{%
+	  \cvline{\centering#1}{%
+	    {\bfseries#2}%
+	    \ifthenelse{\equal{#3}{}}{}{, {\slshape#3}}%
+	    \ifthenelse{\equal{#4}{}}{}{, #4}%
+	    \ifthenelse{\equal{#5}{}}{}{, #5}%
+	    .%
+	    \ifx&#6&%
+	      \else{\newline{}\begin{minipage}[t]{\linewidth}\small#6\end{minipage}}\fi%
+	  }}%	  
+
+%----------------------------------------------------------------------------------------
+%	title on the right
+%----------------------------------------------------------------------------------------
+\patchcmd{\makecvtitle}{[b]}{[t]}{}{}
+\patchcmd{\makecvtitle}{[b]}{[t]}{}{}
+
+%----------------------------------------------------------------------------------------
+%	hyphenation
+%----------------------------------------------------------------------------------------
+\hyphenation{performing}
+\hyphenation{Operational}
+\hyphenation{Others}
+
+%----------------------------------------------------------------------------------------
+%	others
+%----------------------------------------------------------------------------------------
+\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+
+%----------------------------------------------------------------------------------------
+%	contact information
+%----------------------------------------------------------------------------------------
+\firstname{\large{\textbf{Antônio Guilherme Ferreira Viggiano}} }
+\familyname{\\ \emph{19, rue Louis Leprince Ringuet. 13013 Marseille, France \\ +33 650 95 24 56 \\ antonio.viggiano@centrale-marseille.fr}}
+
+\begin{document}
+\begin{center}
+	\makecvtitle
+\end{center}
+
+\vspace*{-1.5em}
+
+%----------------------------------------------------------------------------------------
+%	CV description
+%----------------------------------------------------------------------------------------
+\newcommand{\SECTIONSPACE}{\vspace{0em}}
+\newcommand{\ENTRYSPACE}{\vspace{0.5em}}
+
+\centering{
+\fbox{
+\begin{minipage}{0.98\textwidth}
+	\vspace{1pt}
+   \centering{{\Large \bfseries \textsc{Software Engineering Internship}}}
+\end{minipage}
+}}
+
+
+%----------------------------------------------------------------------------------------
+%	CV body
+%----------------------------------------------------------------------------------------
+\vspace*{-0.25em}
+
+\section{Education}
+\cventry{2011 \textemdash~2013 (expected)}{Multidisciplinary Graduate Engineering School}{École Centrale Marseille}{Double Degree}{}{\textbf{Emphasis: Information Technology and Digital Society}\\ Structures and Data Processing, Artificial Intelligence, Data Mining, Cryptography, Economy \ENTRYSPACE}
+\cventry{2009 \textemdash~2014 (expected)}{Mechatronics Graduate Engineering School}{Universidade de São Paulo}{}{}{Numerical Calculus, Computing Applied to Mechatronics, Linear Algebra, Probability and Statistics }
+\SECTIONSPACE
+\section{Experiences}
+\cventry{August 2012}{Intern}{Gemalto S.A.}{}{France}{- Operated credit card personalization machines\\- Acquired work environment familiarization\ENTRYSPACE}
+\cventry{2012}{Project Manager}{École Centrale Marseille}{}{}{MUDAR\ENTRYSPACE}
+\cventry{since 2012}{President}{International Centrale Marseille}{Students' association}{}{- Responsible for the integration of exchange students and for the international mobility\ENTRYSPACE}
+\cventry{2011}{Undergraduate Scientific Researcher}{Laboratory of Environmental and Biomedical Engineering}{Universidade de São Paulo}{}{MUDAR\ENTRYSPACE}
+\cventry{2010}{Numerical Calculus Monitor}{Universidade de São Paulo}{}{}{- Corrected assignments written in C and supervised tests}
+\SECTIONSPACE
+\section{Computer Skills}
+\cvcomputer{Programming Languages}{C/C++, Java: \emph{proficient} \\ Python, Prolog, Scala, R}{\begin{center}Operational Systems\end{center}}{Windows, Linux  \ENTRYSPACE}
+\cvcomputer{Database}{SQL}{\begin{center}Web\end{center}}{HTML/CSS, PHP\ENTRYSPACE}
+\cvcomputer{Software}{MATLAB, Dreamweaver, Visual Studio}{\begin{center}Others\end{center}}{\LaTeX}
+\SECTIONSPACE
+\section{Language Skills}
+\cvlanguage{Portuguese}{Native language}{}
+\cvlanguage{French}{Advanced}{DALF C1 (Diploma of Advanced French Language Studies)}
+\cvlanguage{English}{Advanced}{TOEIC (975 out of 990 points)}
+\cvlanguage{Japanese}{Basic}{ }
+\SECTIONSPACE
+\section{Projects}
+\cvline{Artificial Intelligence}{Developed a Java expert system to suggest travel destinations based on user input data.  \newline{\emph{Implemented the forward and backward chaining methods}} \newline{\emph{Designed the graphic user interface in Swing}}\ENTRYSPACE}
+\cvline{Data Analysis}{Developed a Java program using an API to establish serial data communication with a radio module.  \newline{\emph{Wrote the documentation and a guide on how to make further improvements}} \newline{\emph{Employed Git version control system}}}
+%\newline{\emph{Accomplished X by implementing Y which led to Z}}}
+
+\end{document}

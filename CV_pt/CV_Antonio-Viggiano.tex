@@ -1,0 +1,125 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvtheme[black]{classic}                
+\usepackage[utf8]{inputenc}
+\usepackage[scaled]{helvet}
+\usepackage{lmodern}
+\usepackage[margin=1.4cm]{geometry}
+
+%----------------------------------------------------------------------------------------
+%	CV portuguÃªs v. 8.7
+%	Antonio Guilherme FERREIRA VIGGIANO
+%   dir : ./CV_pt	
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	for computer skills
+%----------------------------------------------------------------------------------------
+\renewcommand*{\cvdoubleitem}[4]{%
+ \cvline{#1}{\begin{minipage}[t]{1.4\doubleitemmaincolumnwidth}#2\end{minipage}%
+ \hfill%
+ \begin{minipage}[t]{\hintscolumnwidth}\raggedleft\hintfont{#3}\end{minipage}\hspace*{\separatorcolumnwidth}\begin{minipage}[t]{\doubleitemmaincolumnwidth}#4\end{minipage}}}
+
+%----------------------------------------------------------------------------------------
+%	for language skills
+%----------------------------------------------------------------------------------------
+\renewcommand*{\cvlanguage}[3]{%
+  \cvline{#1}{\textbf{#2}\hspace*{\separatorcolumnwidth}\emph{#3}}}
+
+%----------------------------------------------------------------------------------------
+%	ragged
+%----------------------------------------------------------------------------------------
+\renewcommand*{\cvline}[3][.25em]{%
+	  \begin{tabular}{@{}p{\hintscolumnwidth}@{\hspace{\separatorcolumnwidth}}p{\maincolumnwidth}@{}}%
+          \centering\hintfont{#2} &{#3}%
+	  \end{tabular}\\[#1]}
+	  
+\renewcommand*{\cventry}[6]{%
+	  \cvline{\centering#1}{%
+	    {\bfseries#2}%
+	    \ifthenelse{\equal{#3}{}}{}{, {\slshape#3}}%
+	    \ifthenelse{\equal{#4}{}}{}{, #4}%
+	    \ifthenelse{\equal{#5}{}}{}{, #5}%
+	    .%
+	    \ifx&#6&%
+	      \else{\newline{}\begin{minipage}[t]{\linewidth}\small#6\end{minipage}}\fi%
+	  }}%	  
+
+%----------------------------------------------------------------------------------------
+%	title on the right
+%----------------------------------------------------------------------------------------
+\patchcmd{\makecvtitle}{[b]}{[t]}{}{}
+\patchcmd{\makecvtitle}{[b]}{[t]}{}{}
+
+%----------------------------------------------------------------------------------------
+%	hyphenation
+%----------------------------------------------------------------------------------------
+\hyphenation{performing}
+\hyphenation{Operational}
+\hyphenation{Others}
+
+%----------------------------------------------------------------------------------------
+%	others
+%----------------------------------------------------------------------------------------
+\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+
+%----------------------------------------------------------------------------------------
+%	contact information
+%----------------------------------------------------------------------------------------
+\firstname{\large{\textbf{Antônio Guilherme Ferreira Viggiano}} }
+\familyname{\\ \emph{19, rue Louis Leprince Ringuet. 13013 Marseille, France \\ +33 650 95 24 56 \\ antonio.viggiano@usp.br}}
+
+\begin{document}
+\begin{center}
+	\makecvtitle
+\end{center}
+
+\vspace*{-1.5em}
+
+%----------------------------------------------------------------------------------------
+%	CV description
+%----------------------------------------------------------------------------------------
+\newcommand{\SECTIONSPACE}{\vspace{0em}}
+\newcommand{\ENTRYSPACE}{\vspace{0.5em}}
+
+\centering{
+\fbox{
+\begin{minipage}{0.98\textwidth}
+	\vspace{1pt}
+   \centering{{\Large \bfseries \textsc{EstÃ¡gio em Tecnologias da InformaÃ§Ã£o}}}
+\end{minipage}
+}}
+
+
+%----------------------------------------------------------------------------------------
+%	CV body
+%----------------------------------------------------------------------------------------
+\vspace*{-0.25em}
+
+\section{FormaÃ§Ã£o}
+\cventry{2011 \textemdash~2013 (esperado)}{Engenharia Generalista}{École Centrale Marseille}{}{}{\textbf{}\\  \ENTRYSPACE}
+\cventry{2009 \textemdash~2014 }{}{Universidade de São Paulo}{}{}{}
+\SECTIONSPACE
+\section{}
+\cventry{}{}{Gemalto S.A.}{}{}{\\\ENTRYSPACE}
+\cventry{}{}{École Centrale Marseille}{}{}{\ENTRYSPACE}
+\cventry{}{}{International Centrale Marseille}{}{}{\ENTRYSPACE}
+\cventry{}{}{}{Universidade de São Paulo}{}{\ENTRYSPACE}
+\cventry{}{}{Universidade de São Paulo}{}{}{}
+\SECTIONSPACE
+\section{}
+\cvcomputer{}{ \\ }{\begin{center}\end{center}}{\ENTRYSPACE}
+\cvcomputer{}{}{\begin{center}\end{center}}{\ENTRYSPACE}
+\cvcomputer{}{}{\begin{center}\end{center}}{}
+\SECTIONSPACE
+\section{}
+\cvlanguage{}{}{}
+\cvlanguage{}{}{}
+\cvlanguage{}{}{}
+\cvlanguage{}{}{}
+\SECTIONSPACE
+\section{}
+\cvline{}{ \newline{\emph{}} \newline{\emph{}}\ENTRYSPACE}
+\cvline{}{ \newline{\emph{}} \newline{\emph{}}}
+%\newline{\emph{Accomplished X by implementing Y which led to Z}}}
+
+\end{document}
