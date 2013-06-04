@@ -4,6 +4,7 @@
 import re
 import os
 import errno
+import subprocess
 from array import *
 import codecs
 
@@ -85,11 +86,11 @@ while( index_language < len(directories) ):
 				j+= 1
 			print to_change[0] + ' ---> ' + to_be_written
 			output_file.write(to_be_written.encode('utf8'))
+	#p = subprocess.Popen(["pdflatex -output-directory=" + directories[index_language] + " " + output_file_name], shell=True, stdout=open(os.devnull, 'wb'))
+	##sts = os.waitpid(p.pid, 0)[1]
 	index_language += 1;
 
 latex_file.close()
 output_file.close()
 
 print "Success. Written on latex."
-
-print "Falta : rodar pdftex"
