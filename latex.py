@@ -92,5 +92,4 @@ while( index_language < len(directories) ):
 
 latex_file.close()
 output_file.close()
-
-print "Success. Written on latex."
+print "Success. Written on latex." 
