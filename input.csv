@@ -1,7 +1,7 @@
 0;titulo;english;français;português
 1;filename;CV_Antonio-Viggiano;CV_Antonio-Viggiano;CV_Antonio-Viggiano
 2;pdfdir;CV_en;CV_fr;CV_pt
-3;versão;8.7;8.7;8.7
+3;versão;8.8;8.8;8.8
 4;;;;
 5;;;;
 6;;;;
@@ -13,14 +13,14 @@
 12;email;antonio.viggiano@centrale-marseille.fr;antonio.viggiano@centrale-marseille.fr;antonio.viggiano@usp.br
 13;título do estágio;Software Engineering Internship;Stage Développement Logiciel;Estágio em Tecnologias da Informação
 14;section 1;Education;Éducation;Formação
-15;previsão de formatura école;(expected);(prévu);(esperado)
+15;previsão de formatura école;(expected);(prévu);(previsto)
 16;diplome école;Multidisciplinary Graduate Engineering School;Ingénierie Généraliste;Engenharia Generalista
-17;DD;Double Degree;;Duplo Diploma
-18;major école;Emphasis: Information Technology and Digital Society;;
-19;coursework;Structures and Data Processing, Artificial Intelligence, Data Mining, Cryptography, Economy;;
-20;previsao de formatura USP;(expected);;
-21;Section 2;Mechatronics Graduate Engineering School;;
-22;coursework usp;Numerical Calculus, Computing Applied to Mechatronics, Linear Algebra, Probability and Statistics ;;
+17;DD;Double Degree;Double Diplôme;Duplo Diploma
+18;major école;Emphasis: Information Technology and Digital Society;Parcous d'approfondissement : Technologies de l'Information et Société Numérique;Ênfase: Tecnologia da Informação e Sociedade Digital
+19;coursework;Structures and Data Processing, Artificial Intelligence, Data Mining, Digital Economy and Ethics;Structures et Traitement de Données, Intelligence Artificielle, Data Mining, Économie et Éthique Numérique;Estruturas e Tratamento de Dados, Inteligência Artificial, Data Mining, Economia e Ética Digital
+20;previsao de formatura USP;(expected);(prévu);(previsto)
+21;Section 2;Mechatronics Graduate Engineering School;Ingénierie Mécatronique;Engenharia Mecatrônica
+22;coursework usp;Numerical Calculus, Computing Applied to Mechatronics, Linear Algebra, Probability and Statistics ;Calcul Numérique, Computation Appliqué à la Mécatronique, Algèbre Linéaire;
 23;experiencia;Experiences;;
 24;data estagio;August 2012;;
 25;cargo estagio;Intern;;
