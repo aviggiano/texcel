@@ -29,33 +29,33 @@
 28;description stage 2;- Acquired work environment familiarization;- Familiarisation avec l'environnement de travail;- Familiarização com o ambiente de trabalho
 29;data PT;2012;2012;2012
 30;cargo PT;Project Manager;Chef de Projet;Chefe de Projeto
-31;description PT;MUDAR;;
-32;data ICM;since 2012;;
-33;cargo ICM;President;;
-34;description ICM 1;Students' association;;
-35;description ICM 2;- Responsible for the integration of exchange students and for the international mobility;;
-36;data IC;2011;;
-37;cargo IC;Undergraduate Scientific Researcher;;
-38;local IC;Laboratory of Environmental and Biomedical Engineering;;
-39;description IC;MUDAR;;
-40;data monitoria;2010;;
-41;cargo monitoria;Numerical Calculus Monitor;;
-42;description monitoria;- Corrected assignments written in C and supervised tests;;
-43;Section 3;Computer Skills;;
-44;programming languages;Programming Languages;;
-45;prog linha 1;C/C++, Java: \emph{proficient};;
-46;prog linha 2;Python, Prolog, Scala, R;;
-47;OS;Operational Systems;;
-48;OS linha 1;Windows, Linux  ;;
-49;Database;Database;;
-50;database linha 1;SQL;;
-51;Web;Web;;
-52;Web linha 1;HTML/CSS, PHP;;
-53;Software;Software;;
-54;Software linha 1;MATLAB, Dreamweaver, Visual Studio;;
-55;Others;Others;;
-56;Others linha 1;\LaTeX;;
-57;Section 4;Language Skills;;
+31;description PT;- Lead a group of seven students in the development of a platform sensitive to various pollutants performing real-time monitoring of the air quality;- Gestion d'un groupe de sept étudiants et développement d'une plate-forme sensible à divers polluants et surveillance de la qualité de l'air;- Gestão de um grupo de sete alunos e desenvolvimento de uma plataforma sensível a diversos poluentes e monitoramento em tempo real da qualidade do ar.
+32;data ICM;2012;2012;2012
+33;cargo ICM;President;Président;Presidente
+34;description ICM 1;Students' association;Association d’étudiants;Associação de Estudantes
+35;description ICM 2;- Responsible for the integration of exchange students and for the international mobility;Responsable par l’intégration des élèves et aide avec la mobilité internationale;Responsável pela integração dos estudantes intercambistas e ajuda com a mobilidade internacional
+36;data IC;2011;2011;2011
+37;cargo IC;Undergraduate Scientific Researcher;Chercheur Scientiﬁque;Pesquisador em Iniciação Cientíﬁca
+38;local IC;Laboratory of Environmental and Biomedical Engineering;Laboratoire d’Ingénierie Environnementale et Biomédicale;Laboratório de Engenharia Ambiental e Biomédica
+39;description IC;Researcher in the bioengineering area, responsible for the development of a filter which separates images of ventilation and perfusion in electrical impedance tomography;Développement d'un filtre de séparation d'images de ventilation et de perfusion dans la tomographie d'impédance électrique;Pesquisa na área de bioengenharia, responsável pelo desenvolvimento de um filtro separador de imagens de ventilação e perfusão na tomogrfia por impedância elétrica
+40;data monitoria;2010;2010;2010
+41;cargo monitoria;Numerical Calculus Monitor;Moniteur de Calcul Numérique;Monitor de Cálculo Numérico
+42;description monitoria;- Corrected assignments written in C and supervised tests;- Correction d'exercices de programmation en C et supervision d'examens;Correção de exercícios de programação em C e ajuda com aulas de recuperação
+43;Section 3;Computer Skills;Compétences Informatiques;Competências Informáticas
+44;programming languages;Programming Languages;Langages;Linguagens
+45;prog linha 1;\textbf{C/C++, Java, Python};\textbf{C/C++, Java, Python};\textbf{C/C++, Java, Python}
+46;prog linha 2;Prolog, Scala, R;Prolog, Scala, R;Prolog, Scala, R
+47;OS;Operational Systems;Systèmes d'Exploitation;Sistemas Operacionais
+48;OS linha 1;\textbf{Linux}, Windows, Chrome OS;\textbf{Linux}, Windows, Chrome OS;\textbf{Linux}, Windows, Chrome OS
+49;Database;Database;Database;Database
+50;database linha 1;SQL Server, MySQL, SQLite;SQL Server, MySQL, SQLite;SQL Server, MySQL, SQLite
+51;Web;Web;Web;Web
+52;Web linha 1;HTML/CSS, JavaScript, PHP;HTML/CSS, JavaScript, PHP;HTML/CSS, JavaScript, PHP
+53;Software;Software;Software;Software
+54;Software linha 1;emacs, MATLAB, Visual Studio;emacs, MATLAB, Visual Studio;emacs, MATLAB, Visual Studio
+55;Others;Others;Autres;Outros
+56;Others linha 1;\LaTeX;\LaTeX;\LaTeX
+57;Section 4;Language Skills;Compétences Linguistiques;Competências Linguísticas
 58;pt;Portuguese;;
 59;level pt;Native language;;
 60;fr;French;;
