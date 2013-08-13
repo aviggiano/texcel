@@ -9,6 +9,13 @@ from array import *
 import codecs
 
 
+def raw_string(s):
+	if isinstance(s, str):
+		s = s.encode('string-escape')
+	elif isinstance(s, unicode):
+		s = s.encode('unicode-escape')
+	return s
+
 #1. ler o .csv e estocar numa 'matriz'
 #2. ver quais sao os directories a serem criados e cria-los, assim como estocar o nome de saida dos .tex (e coloca-los nessas pastas), etc
 #3. ler o .tex e para cada regular expression, substutuir nos outputs das linguas respectivas --> deve levar em conta uma busca sequencial circular !!!!!!!! vide problema descrito em *
@@ -81,7 +88,7 @@ while( index_language < len(directories) ):
 			to_be_written = latex_lines[i].decode('utf8')
 			while (j < len(to_change)):
 				index = int(re.sub('@','',to_change[j]))
-				change_to =  database_matrix[index][index_language].decode('unicode-escape')
+				change_to =  raw_string(database_matrix[index][index_language])#.decode('unicode-escape')
 				to_be_written = re.sub(to_change[j], change_to, to_be_written)
 				j+= 1
 			print to_change[0].encode('utf-8') + ' ---> ' + to_be_written.encode('utf-8')
