@@ -56,23 +56,23 @@
 55;Others;Others;Autres;Outros
 56;Others linha 1;\LaTeX;\LaTeX;\LaTeX
 57;Section 4;Language Skills;Compétences Linguistiques;Competências Linguísticas
-58;pt;Portuguese;;
-59;level pt;Native language;;
-60;fr;French;;
-61;level fr;Advanced;;
-62;diploma fr;DALF C1 (Diploma of Advanced French Language Studies);;
-63;en;English;;
-64;level en;Advanced;;
-65;diploma en;TOEIC (975 out of 990 points);;
-66;jp;Japanese;;
-67;jevel jp;Basic;;
-68;diploma jp; ;;
-69;Section 5;Projects;;
-70;IA;Artificial Intelligence;;
-71;description IA;Developed a Java expert system to suggest travel destinations based on user input data. ;;
-72;description IA +;Implemented the forward and backward chaining methods;;
+58;pt;Portuguese;Portugais;Português
+59;level pt;Native language;Langue maternelle;Língua materna
+60;fr;French;Français;Francês
+61;level fr;Advanced;Courant écrit et oral;Fluente
+62;diploma fr;DALF C1 (Diploma of Advanced French Language Studies);DALF C1 (Diplomme Approfondi de la Langue Française);DALF C1 (Diploma de Estudos Avançados da Língua Francesa)
+63;en;English;Anglais;Inglês
+64;level en;Advanced;Courant écrit et oral;Fluente
+65;diploma en;TOEIC (975 out of 990 points);TOEIC (975 sur 990 points);TOEIC (975 de 990 pontos)
+66;jp;Japanese;Japonais;Japonês
+67;jevel jp;Basic;Basique;Básico
+68;diploma jp;;;
+69;Section 5;Projects;Projets;Projetos
+70;IA;Artificial Intelligence;Intelligence Artificielle;Inteligência Artificial
+71;description IA;Developed a Java expert system to suggest travel destinations based on user input data.;Développement d'un système expert en Java pour suggérer des destinations de voyage.;Desenvolvimento de um sistema expert em Java para proposição de destinos de viagem.
+72;description IA +;Implemented the forward and backward chaining methods;Implémentation des méthodes de chainage et création de l'interface graphique en Swing;Implementação dos métodos de encadeamento e desenvolvimento da interface gráﬁca em Swing
 73;description IA ++;Designed the graphic user interface in Swing;;
-74;Data Analysis;Data Analysis;;
-75;description DA;Developed a Java program using an API to establish serial data communication with a radio module. ;;
-76;description DA +;Wrote the documentation and a guide on how to make further improvements;;
-77;description DA ++;Employed Git version control system;;
+74;Data Analysis;Data Analysis;Analyse de Données;Tratamento de Dados
+75;description DA;Developed a Java program using an API to establish serial data communication with a radio module. ;Développement d'un programme Java pour se communiquer avec un module radio.;Desenvolvimento de um aplicativo Java de comunicação serial com módulos de radio.
+76;description DA +;Wrote the documentation and a guide on how to make further improvements;Documentation de l'application et élaboration d'un guide d'utilisation;Documentação do programa e tutorial explicativo
+77;description DA ++;Employed Git version control system;Contrôle de version avec Git;Controle de versão com Git
