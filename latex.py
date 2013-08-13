@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# -*- coding:utf8 -*-
+# -*- coding:utf-8 -*-
 
 import re
 import os
@@ -84,8 +84,8 @@ while( index_language < len(directories) ):
 				change_to =  database_matrix[index][index_language].decode('unicode-escape')
 				to_be_written = re.sub(to_change[j], change_to, to_be_written)
 				j+= 1
-			print to_change[0] + ' ---> ' + to_be_written
-			output_file.write(to_be_written.encode('utf8'))
+			print to_change[0].encode('utf-8') + ' ---> ' + to_be_written.encode('utf-8')
+			output_file.write(to_be_written.encode('utf-8'))
 	#p = subprocess.Popen(["pdflatex -output-directory=" + directories[index_language] + " " + output_file_name], shell=True, stdout=open(os.devnull, 'wb'))
 	##sts = os.waitpid(p.pid, 0)[1]
 	index_language += 1;
