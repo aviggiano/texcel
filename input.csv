@@ -70,8 +70,8 @@
 69;Section 5;Projects;Projets;Projetos
 70;IA;Artificial Intelligence;Intelligence Artificielle;Inteligência Artificial
 71;description IA;Developed a Java expert system to suggest travel destinations based on user input data.;Développement d'un système expert en Java pour suggérer des destinations de voyage.;Desenvolvimento de um sistema expert em Java para proposição de destinos de viagem.
-72;description IA +;Implemented the forward and backward chaining methods;Implémentation des méthodes de chainage et création de l'interface graphique en Swing;Implementação dos métodos de encadeamento e desenvolvimento da interface gráﬁca em Swing
-73;description IA ++;Designed the graphic user interface in Swing;;
+72;description IA +;Implemented the forward and backward chaining methods and designed the GUI in Swing;Implémentation des méthodes de chainage et création de l'interface graphique en Swing;Implementação dos métodos de encadeamento e desenvolvimento da interface gráﬁca em Swing
+73;description IA ++;;;
 74;Data Analysis;Data Analysis;Analyse de Données;Tratamento de Dados
 75;description DA;Developed a Java program using an API to establish serial data communication with a radio module. ;Développement d'un programme Java pour se communiquer avec un module radio.;Desenvolvimento de um aplicativo Java de comunicação serial com módulos de radio.
 76;description DA +;Wrote the documentation and a guide on how to make further improvements;Documentation de l'application et élaboration d'un guide d'utilisation;Documentação do programa e tutorial explicativo
